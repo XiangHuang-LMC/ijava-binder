@@ -1,5 +1,5 @@
 # ijava-binder fork for teaching Java
-This is a fork of ijava-binder project for teaching there Java courses CSC 170, CSC 176, and CSC 276 at Le Moyne College, Spring 2020. Although CSC 276 is more of a project-based class, I will not need to demo a lot of code pieces, I found that I can use Jupyter to write my slides.
+This is a fork of ijava-binder project for teaching there Java courses CSC 170, CSC 176, and CSC 276 at Le Moyne College, Spring 2020. Although CSC 276 is more of a project-based class, I will not need to demo a lot of code pieces, I found that I can use Jupyter to [write my slides](https://medium.com/@mjspeck/presenting-code-using-jupyter-notebook-slides-a8a3c3b59d67).
 
 All student can view my Jupyter notebook by clicking the binder badge in the following.
 
