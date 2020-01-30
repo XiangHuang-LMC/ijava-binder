@@ -1,5 +1,9 @@
-# ijava-binder fork for teaching Java 
-This is a fork of ijava-binder project for teaching two Java courses CSC 170 and CSC 176 at Le Moyne College, Spring 2020. 
+# ijava-binder fork for teaching Java
+This is a fork of ijava-binder project for teaching there Java courses CSC 170, CSC 176, and CSC 276 at Le Moyne College, Spring 2020. Although CSC 276 is more of a project-based class, I will not need to demo a lot of code pieces, I foud that I can use Jupyter to write my slides.
+
+All student can view my Jupyter notebook by clicking the binder badge in the following.
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/XiangHuang-LMC/ijava-binder/master)
 
 
 [![Launch IJava binder][binder-badge-img]](https://mybinder.org/v2/gh/SpencerPark/ijava-binder/master) [![Launch IJava lab binder][binder-lab-badge-img]](https://mybinder.org/v2/gh/SpencerPark/ijava-binder/master?urlpath=lab)
