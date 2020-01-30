@@ -1,11 +1,17 @@
 # ijava-binder fork for teaching Java
-This is a fork of ijava-binder project for teaching there Java courses CSC 170, CSC 176, and CSC 276 at Le Moyne College, Spring 2020. Although CSC 276 is more of a project-based class, I will not need to demo a lot of code pieces, I foud that I can use Jupyter to write my slides.
+This is a fork of ijava-binder project for teaching there Java courses CSC 170, CSC 176, and CSC 276 at Le Moyne College, Spring 2020. Although CSC 276 is more of a project-based class, I will not need to demo a lot of code pieces, I found that I can use Jupyter to write my slides.
 
 All student can view my Jupyter notebook by clicking the binder badge in the following.
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/XiangHuang-LMC/ijava-binder/master)
 
+## To my student
+Please understand that I am not a native writer, and due to my limited time working on this, I won't have a time to proofread all my materials. You can help by contributing to this repository. It is OUR project.
 
+Lastly, thank you for taking the journey with me!
+
+The original ijava-binder goes below.
+# ijava-binder
 [![Launch IJava binder][binder-badge-img]](https://mybinder.org/v2/gh/SpencerPark/ijava-binder/master) [![Launch IJava lab binder][binder-lab-badge-img]](https://mybinder.org/v2/gh/SpencerPark/ijava-binder/master?urlpath=lab)
 
 A [Binder](https://mybinder.org/) compatible repository to try out the [IJava](https://github.com/SpencerPark/IJava) kernel with just a web browser. Depending on if the docker image is already built, spawning the notebook may take some time and so please be patient with it.
