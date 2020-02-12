@@ -1,0 +1,79 @@
+Simply Java: An Introduction to Java Programming by James Levenick
+Chapter 1 - Programming Is Like Juggling
+
+Beginning Java Programming: The Object-Oriented Approach by Bart Baesens, Aimée Backiel and Seppe vanden Broucke
+-Chapter 1 A General Introduction to Programming
+
+Guide to Java: A Concise Introduction to Programming by James T. Streib and Takako Soma
+-Introduces classes in chapter 2; book used by Aparna.
+
+-Chapter 1 Variables, Input/Output, and Arithmetic
+-Chapter 2 Objects: An Introduction
+-Chapter 3 Selection Structures
+-Chapter 4 Iteration Structures
+-Chapter 5 Objects: Revisited
+-Chapter 6 Strings
+-Chapter 7 Arrays
+-Chapter 8 Recursion
+-Chapter 9 Objects: Inheritance and Polymorphism
+Chapter 10 Elementary File Input and Output
+Appendix A Simple Graphical Input and Output
+
+Beginning Java Programming: The Object-Oriented Approach by Bart Baesens, Aimée Backiel and Seppe vanden Broucke
+-Chapter 2 Getting to Know Java
+-Chapter 3 Setting up Your Development Environment
+-Chapter 4 Moving toward Object-Oriented Programming
+-Chapter 5 Controlling the Flow of Your Program
+-Chapter 6 Handling Exceptions and Debugging
+-Chapter 7 Delving Further into Object-Oriented Concepts
+-Chapter 8 Handling Input and Output
+-Chapter 9 Working with Databases in Java
+-Chapter 10 Accessing Web Sources
+-Chapter 11 Designing Graphical Interfaces
+-Chapter 12 Using Object-Oriented Patterns
+-Chapter 13 Emerging Cognitive Computing Areas
+-Chapter 14 Future Applications for Cognitive Computing
+
+Programming Fundamentals Using Java: A Game Application Approach by William McAllister and S. Jane Fritz
+-Introduces classes in chapter 3.
+
+Chapter 1 - Introduction
+Chapter 2 - Variables, Input/Output, and Calculations
+Chapter 3 - Methods, Classes, and Objects: A First Look
+Chapter 4 - Boolean Expressions, Making Decisions, and Disk Input
+Chapter 5 - Repeating Statements: Loops
+Chapter 6 - Arrays
+Chapter 7 - Methods, Classes, and Objects: A Second Look
+Chapter 8 - Inheritance
+Chapter 9 - Recursion
+Chapter 10 - Exceptions: A Second Look
+Chapter 11 - Graphical User Interfaces
+Chapter 12 - Graphical User Interfaces: A Second Look
+Chapter 13 - Generics and the API Collections Framework
+Chapter 14 - Multithreading and Concurrency
+
+
+
+Books I looked at but did not like:
+
+Beginning Java 8 Fundamentals: Language Syntax, Arrays, Data Types, Objects, and Regular Expressions by Kishori Sharan
+--Covered classes/objects too late; covered unnecessary topics (data repr) early.
+
+Java: A Beginner's Tutorial, Second Edition by Budi Kurniawan
+--Looks more like a reference book.
+
+Java 7 for Absolute Beginners by Jay Bryant
+--Covered classes/objects too late.
+
+Java All-in-One for Dummies, 4th Edition by Doug Lowe
+--Covered classes/objects too late.
+
+Java for Dummies, 6th Edition by Barry Burd
+--Covered classes/objects too late.
+
+Java Illuminated: An Active Learning Approach, 4th Edition by Julie Anderson and Hervé Franceschi
+--Covered classes/objects too late.
+
+Simply Java: An Introduction to Java Programming by James Levenick
+--Covers GUI too much/too soon.
+--First chapter is nice introduction!

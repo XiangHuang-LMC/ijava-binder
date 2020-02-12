@@ -1,0 +1,52 @@
+//ABA_OOD_A_view.java: very simple object-oriented design example.
+//   This class implements the view component.
+
+import java.util.NoSuchElementException;
+import java.util.Scanner;
+
+public class ABA_OOD_A_view
+{
+	private ABA_OOD_A_controller controller;
+	private ABA_OOD_A_viewGUI gui;
+
+	private final String CREATE = "C";
+	private final String DISPLAY = "D";
+	private final String EXIT = "X";
+
+	public ABA_OOD_A_view(ABA_OOD_A_controller controller)
+	{
+		this.controller = controller;
+		this.gui = new ABA_OOD_A_viewGUI(this);
+	}
+
+	//purpose:
+	//assumptions:
+	//inputs:
+	//post-conditions:
+	public ABA_OOD_viewMessage addContact(ABA_OOD_contactData data)
+	{
+		ABA_OOD_viewRequest request = new ABA_OOD_viewRequest(ABA_OOD_viewRequest.REQUEST.CREATE, data);
+		ABA_OOD_viewMessage msg = controller.processRequest(request);
+		return msg;
+	}
+
+	//purpose:
+	//assumptions:
+	//inputs:
+	//post-conditions:
+	public ABA_OOD_viewMessage displayContact(ABA_OOD_contactData data)
+	{
+		ABA_OOD_viewRequest request = new ABA_OOD_viewRequest(ABA_OOD_viewRequest.REQUEST.DISPLAY, data);
+		ABA_OOD_viewMessage msg = controller.processRequest(request);
+		return msg;
+	}
+	
+	//purpose: Exit the application.
+	//assumptions: None.
+	//inputs: None.
+	//post-conditions: None.
+	public void exitABA()
+	{
+		controller.exitABA();
+	}
+}

@@ -1,0 +1,33 @@
+#ABA_OOP_B.py: very simple object-oriented design example.
+# Entry and non-persistent storage of name, no duplicate names, a phone number.
+
+def addressBook():
+    aba = ABA_OOP_B()
+    aba.go()
+
+class ABA_OOP_B:
+    def go(self):
+        self.book = {}
+        name = self.getName()
+        while name != "exit":
+            phone = self.getPhone(name)
+            if name not in self.book:
+                self.book[name] = phone
+            name = self.getName()
+
+        self.displayBook()
+
+    def getName(self):
+        return input("Enter contact name ('exit' to quit): ")
+
+    def displayBook(self):
+        print()
+        print("TEST: Display contents of address book")
+        print("TEST: The address book contains the following contacts")
+        sortedNames = sorted(self.book.keys())
+        for name in sortedNames:
+            print(name, self.book[name])
+
+    def getPhone(self, name):
+        phone = input("Enter phone number for " + name + ": ")
+        return phone
